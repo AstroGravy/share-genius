@@ -42,6 +42,6 @@
             top: 0;
             transform: translate(0, 54px);
         }
-        .hide:hover {
+        .hide:hover { /*keeps hide visible when you hover over it*/
             visibility: visible;
         }
