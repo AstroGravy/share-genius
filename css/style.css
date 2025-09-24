@@ -45,3 +45,13 @@
         .hide:hover { /*keeps hide visible when you hover over it*/
             visibility: visible;
         }
+
+.vocab {
+    border-bottom: 1px dotted black;
+}
+.vocab-def {
+    visibility: hidden;
+}
+.vocab:hover .vocab-def {
+    visibility: visible;
+}
